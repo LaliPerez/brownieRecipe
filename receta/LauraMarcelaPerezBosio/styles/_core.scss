@@ -1,0 +1,115 @@
+@import "_variables.scss";
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    background-color: $secondary-color;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        background-color: $secondary-color;
+    }
+
+    .menu li {
+        box-sizing: border-box;
+        text-transform: uppercase;
+    }
+}
+
+
+.check-btn-action {
+    display: none;
+}
+
+h1 {
+    font-family: $font-secondary;
+    color: $tertiary-color;
+
+}
+
+h2 {
+    font-family: $font-secondary;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: $font-secondary;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    color: $primary-color;
+    text-align: center;
+}
+
+p {
+    font-family: $font-primary;
+    color: $primary-color;
+    font-weight: 300;
+    padding-top: 30px ;
+}
+
+.button1,.button2 {
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: $font-primary;
+    color: $primary-color;
+    background-color: $tertiary-color;
+    text-align: center;
+    display: block;
+}
+
+.button1:hover,.button2:hover {
+    color: $secondary-color;
+    background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    cursor: pointer;
+}
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grayscale($color: #5e5c5c);
+}
+.container1 {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-image: linear-gradient(225deg, #00F3BB 0%, #c4ddbe 100%);
+    background-color: $secondary-color;
+
+    h2 {
+        color: $secondary-color;
+    }
+
+}
+ol,ul, li {
+    font-family: $font-secondary;
+    
+}
+ul{
+    list-style: square inside url("sqpurple.gif")
+}
+ol{
+    list-style-type: upper-roman;
+    list-style-position: inside
+}
+.containerInstr {
+    margin-top: 40px;
+
+}
+.containerInstr1{
+    margin-top: 40px;
+}
